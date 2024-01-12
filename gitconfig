@@ -1,0 +1,33 @@
+[user]
+	name = Actual Genius Intellectual
+	email = math.cs.researcher@gmail.com
+[interactive]
+    diffFilter = delta --color-only
+[credential]
+	helper = store
+[alias]
+	st = status
+	ls = log --graph --decorate --oneline --all
+[core]
+	editor = nvim
+	compression = 9
+	loosecompression = 9
+	pager = delta
+	autocrlf = input
+[delta]
+    navigate = true
+[diff]
+    colorMoved = default
+	algorithm = patience
+[gc]
+	aggressiveDepth = 4095
+[pull]
+	rebase = false
+[merge]
+    conflictstyle = diff3
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[lfs]
+	allowincompletepush = true
