@@ -1,0 +1,18 @@
+live_config_reload = true
+
+[window]
+decorations = "None"
+dynamic_padding = false 
+
+[shell]
+program = "/usr/bin/fish"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 100
+
+[font]
+normal = { family = "Monaspace Neon", style = "Bold" }
