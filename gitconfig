@@ -3,8 +3,6 @@
 	email = math.cs.researcher@gmail.com
 [interactive]
     diffFilter = delta --color-only
-[credential]
-	helper = store
 [alias]
 	st = status
 	ls = log --graph --decorate --oneline --all
@@ -31,3 +29,5 @@
 	autoSetupRemote = true
 [lfs]
 	allowincompletepush = true
+[credential]
+	helper = store
