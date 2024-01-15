@@ -1,0 +1,45 @@
+theme = "onedark"
+
+[editor]
+line-number = "absolute"
+mouse = false
+middle-click-paste = true
+scroll-lines = 5
+cursorline = true
+cursorcolumn = true
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+auto-format = true
+auto-save = true
+auto-completion = true
+auto-info = true
+rulers = [80, 160]
+bufferline = "always"
+color-modes = true
+default-line-ending = "lf"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+enable = true
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+display-signature-help-docs = true
+
+[keys.normal]
+";" = "command_mode" # Not ":"
