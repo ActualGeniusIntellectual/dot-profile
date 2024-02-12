@@ -1,4 +1,4 @@
-theme = "onedark"
+#theme = "onedarker"
 
 [editor]
 line-number = "absolute"
@@ -70,4 +70,10 @@ character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 1
 
 [keys.normal]
-";" = "command_mode" # Not ":"
+";" = "command_mode"
+
+[keys.select]
+";" = "command_mode"
+
+[keys.insert]
+"C-;" = "normal_mode"

@@ -31,3 +31,5 @@
 	allowincompletepush = true
 [credential]
 	helper = store
+[safe]
+	directory = /drive/assets/data/dolt/nonfiction

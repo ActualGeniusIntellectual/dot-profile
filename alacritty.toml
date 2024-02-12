@@ -15,4 +15,4 @@ style = { shape = "Block", blinking = "On" }
 blink_interval = 100
 
 [font]
-normal = { family = "Monaspace Neon", style = "Bold" }
+normal = { family = "Monaspace Krypton", style = "ExtraBold" }

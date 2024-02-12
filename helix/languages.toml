@@ -1,2 +1,24 @@
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+
+[[language]]
+name = "toml"
+formatter = { command = "taplo", args = ["fmt", "-"] }
+
+
+[language-server.uiua-lsp]
+command = "uiua"
+args = ["lsp"]
+
+[[language]]
+name = "uiua"
+scope = "source.uiua"
+injection-regex = "uiua"
+file-types = ["ua"]
+roots = []
+auto-format = true
+comment-token = "#"
+language-servers = [ "uiua-lsp" ]
+indent = { tab-width = 2, unit = "  " }
+shebangs = ["uiua"]
+auto-pairs = {'(' = ')', '{' = '}', '[' = ']', '"' = '"'}
